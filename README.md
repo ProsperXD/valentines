@@ -20,3 +20,5 @@ To mess around with this project and get a shareable link, check out this [link 
 2. Click `Fork` in the upper right corner to create your own copy OR just copy the preview link and send it to your crush!
 
 My only ask is that you let me know what they say!🤭
+
+- Note Delete the watermark off html pages i just did it so u can view C;
