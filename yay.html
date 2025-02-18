@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thanks for being my Valentine!</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">
-        <!-- Gif -->
-        <img src="assets/images/togepi-and-pikachu.gif" id="togepi-gif" alt="a cute picture of togepi"/>
-        <!-- Question -->
-        <h1 id="message">
-            Thanks for being my Valentine! ⸜(｡˃ ᵕ ˂ )⸝♡
+<body class="h-screen bg-gradient-to-r from-pink-500 to-yellow-500"> 
+    <div class="flex min-h-screen flex-col justify-center items-center gap-5 select-none p-4">
+        <img src="assets/images/togepi-love.gif" id="togepi-gif" class="rounded-md w-full max-w-xs md:max-w-md" alt="a cute picture of togepi"/>
+        <h1 class="text-2xl md:text-4xl font-bold text-white text-center">
+            Thanks for being my Valentine! (｡♥‿♥｡)
         </h1>
-        <!-- Go Back Link -->
-        <a href="/">Go Back</a>
+        <button class="p-2 duration-300 flex gap-2 items-center justify-center ease-in-out hover:bg-green-500 bg-green-400/80 w-32 md:w-24 rounded-md text-white hover:scale-[1.2]" id="back-btn" onclick="window.location.href='index.html'">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span class="hidden md:inline">Back</span>
+        </button>
     </div>
+    <p class="text-white fixed left-3 bottom-3">
+        <a href="https://phans.bio" target="_blank" class="underline">- Phans Development</a>
+    </p>
 </body>
 </html>
